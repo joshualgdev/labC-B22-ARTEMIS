@@ -1,0 +1,5 @@
+/artemis
+/artemis.exe
+*.o
+__pycache__/
+/entrega/*.zip
