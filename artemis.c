@@ -115,6 +115,39 @@ void simular(const Configuracion *config, Ensayo historial[], int *cantidad)
     mostrar_reporte(historial, *cantidad);
 }
 
+void mostrar_reporte(const Ensayo historial[], int cantidad)
+{
+    int i;
+    int aprobados = 0;
+    double mayor = 0.0;
+
+    if (cantidad == 0) {
+        puts("No hay ensayos registrados.");
+        return;
+    }
+    puts("\nREPORTE FINAL - ENSAYOS INDEPENDIENTES");
+    puts("N | a (m/s^2) | t (s) | Delta v (m/s) | Desvio (m) | Resultado");
+    for (i = 0; i < cantidad; i++) {
+        printf("%d | %9.3f | %5.2f | %13.3f | %10.3f | %s\n", i + 1,
+               historial[i].aceleracion, historial[i].duracion,
+               historial[i].delta_v, historial[i].desvio,
+               historial[i].dentro_limite ? "Dentro" : "Fuera");
+        if (historial[i].dentro_limite) {
+            aprobados++;
+        }
+        if (historial[i].desvio > mayor) {
+            mayor = historial[i].desvio;
+        }
+    }
+    printf("Completados: %d/%d | Dentro del limite: %d | Mayor desvio: %.3f m\n",
+           cantidad, MAX_ENSAYOS, aprobados, mayor);
+    if (cantidad == MAX_ENSAYOS && aprobados == MAX_ENSAYOS) {
+        puts("Objetivo de entrenamiento cumplido.");
+    } else {
+        puts("Objetivo pendiente: completar los 3 ensayos dentro del limite.");
+    }
+}
+
 void mostrar_ayuda(void)
 {
     puts("\nMODELO FISICO");
