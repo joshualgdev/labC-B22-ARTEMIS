@@ -86,9 +86,7 @@ y registrar las modificaciones que hagamos antes de la entrega.
 
 ## Revisión del equipo
 
-Nos repartimos las siguientes comprobaciones, que todavía tenemos pendientes.
-Cada uno de nosotros marcará su tarea cuando la complete y anotará los resultados
-y las correcciones que hagan falta.
+Nos repartimos las siguientes comprobaciones.
 
 - [x] Juan Pablo: comparar radio, velocidad y período con los cálculos de la consigna.
 - [x] Joshua: probar letras, valores fuera de rango y coma decimal.
