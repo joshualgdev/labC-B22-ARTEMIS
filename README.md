@@ -81,8 +81,7 @@ y la documentación.
 
 La versión preparada con esa asistencia está separada en módulos, usa un arreglo
 fijo y no necesita memoria dinámica. Cuenta con comprobaciones de compilación,
-cálculos, entradas inválidas y reportes. Nos queda completar nuestra revisión
-y registrar las modificaciones que hagamos antes de la entrega.
+cálculos, entradas inválidas y reportes.
 
 ## Revisión del equipo
 
@@ -97,3 +96,4 @@ Nos repartimos las siguientes comprobaciones.
 ## Video
 
 Enlace al Google Drive: https://drive.google.com/drive/folders/1E4Tpw2opAdiH0vOtSvOII4WJQtQ_p2TE?usp=sharing
+Link al Repositorio: https://github.com/joshualgdev/labC-B22-ARTEMIS
