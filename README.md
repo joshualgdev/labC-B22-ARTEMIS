@@ -90,12 +90,12 @@ Nos repartimos las siguientes comprobaciones, que todavía tenemos pendientes.
 Cada uno de nosotros marcará su tarea cuando la complete y anotará los resultados
 y las correcciones que hagan falta.
 
-- [ ] Juan Pablo: comparar radio, velocidad y período con los cálculos de la consigna.
-- [ ] Joshua: probar letras, valores fuera de rango y coma decimal.
-- [ ] Alejandro: comprobar el pulso de 0,5 m/s² durante 10 s: 25 m y 5 m/s.
-- [ ] Ignacio: revisar el menú y los reportes vacíos, parciales y completos.
-- [ ] Martin: compilar desde una copia limpia y comprobar estas instrucciones.
+- [x] Juan Pablo: comparar radio, velocidad y período con los cálculos de la consigna.
+- [x] Joshua: probar letras, valores fuera de rango y coma decimal.
+- [x] Alejandro: comprobar el pulso de 0,5 m/s² durante 10 s: 25 m y 5 m/s.
+- [x] Ignacio: revisar el menú y los reportes vacíos, parciales y completos.
+- [x] Martin: compilar desde una copia limpia y comprobar estas instrucciones.
 
 ## Video
 
-Todavía tenemos pendiente la grabación. Agregaremos el enlace antes de entregar.
+Enlace al Google Drive: https://drive.google.com/drive/folders/1E4Tpw2opAdiH0vOtSvOII4WJQtQ_p2TE?usp=sharing
